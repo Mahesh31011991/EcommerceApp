@@ -16,6 +16,7 @@
 		185FB1932D96A1E00038890E /* EcommerceAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185FB1922D96A1E00038890E /* EcommerceAppTests.swift */; };
 		185FB19D2D96A1E00038890E /* EcommerceAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185FB19C2D96A1E00038890E /* EcommerceAppUITests.swift */; };
 		185FB19F2D96A1E00038890E /* EcommerceAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185FB19E2D96A1E00038890E /* EcommerceAppUITestsLaunchTests.swift */; };
+		9C90BE4E2F3F8265007E7255 /* DashBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C90BE4D2F3F8265007E7255 /* DashBoardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		185FB1982D96A1E00038890E /* EcommerceAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcommerceAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		185FB19C2D96A1E00038890E /* EcommerceAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcommerceAppUITests.swift; sourceTree = "<group>"; };
 		185FB19E2D96A1E00038890E /* EcommerceAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcommerceAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9C90BE4D2F3F8265007E7255 /* DashBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				182908822D9A895A003E75A0 /* AuthView.swift */,
+				9C90BE4D2F3F8265007E7255 /* DashBoardView.swift */,
 			);
 			path = VIew;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				182908862D9A9043003E75A0 /* AppDelegate.swift in Sources */,
+				9C90BE4E2F3F8265007E7255 /* DashBoardView.swift in Sources */,
 				185FB1822D96A1DB0038890E /* EcommerceAppApp.swift in Sources */,
 				182908832D9A895A003E75A0 /* AuthView.swift in Sources */,
 			);
