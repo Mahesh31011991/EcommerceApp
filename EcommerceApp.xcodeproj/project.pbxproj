@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182908832D9A895A003E75A0 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182908822D9A895A003E75A0 /* AuthView.swift */; };
+		182908862D9A9043003E75A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182908852D9A9043003E75A0 /* AppDelegate.swift */; };
+		182908882D9A92FE003E75A0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 182908872D9A92FE003E75A0 /* GoogleService-Info.plist */; };
 		185FB1822D96A1DB0038890E /* EcommerceAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185FB1812D96A1DB0038890E /* EcommerceAppApp.swift */; };
-		185FB1842D96A1DB0038890E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185FB1832D96A1DB0038890E /* ContentView.swift */; };
 		185FB1862D96A1DF0038890E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185FB1852D96A1DF0038890E /* Assets.xcassets */; };
 		185FB1892D96A1DF0038890E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185FB1882D96A1DF0038890E /* Preview Assets.xcassets */; };
 		185FB1932D96A1E00038890E /* EcommerceAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185FB1922D96A1E00038890E /* EcommerceAppTests.swift */; };
 		185FB19D2D96A1E00038890E /* EcommerceAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185FB19C2D96A1E00038890E /* EcommerceAppUITests.swift */; };
 		185FB19F2D96A1E00038890E /* EcommerceAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185FB19E2D96A1E00038890E /* EcommerceAppUITestsLaunchTests.swift */; };
+		9C90BE4E2F3F8265007E7255 /* DashBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C90BE4D2F3F8265007E7255 /* DashBoardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		182908822D9A895A003E75A0 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		182908852D9A9043003E75A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		182908872D9A92FE003E75A0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		185FB17E2D96A1DB0038890E /* EcommerceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcommerceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		185FB1812D96A1DB0038890E /* EcommerceAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcommerceAppApp.swift; sourceTree = "<group>"; };
-		185FB1832D96A1DB0038890E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		185FB1852D96A1DF0038890E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		185FB1882D96A1DF0038890E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		185FB18E2D96A1E00038890E /* EcommerceAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcommerceAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,7 @@
 		185FB1982D96A1E00038890E /* EcommerceAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcommerceAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		185FB19C2D96A1E00038890E /* EcommerceAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcommerceAppUITests.swift; sourceTree = "<group>"; };
 		185FB19E2D96A1E00038890E /* EcommerceAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcommerceAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9C90BE4D2F3F8265007E7255 /* DashBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1829087F2D9A8923003E75A0 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				182908822D9A895A003E75A0 /* AuthView.swift */,
+				9C90BE4D2F3F8265007E7255 /* DashBoardView.swift */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		182908802D9A892D003E75A0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		182908812D9A8930003E75A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		182908842D9A9013003E75A0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				185FB1812D96A1DB0038890E /* EcommerceAppApp.swift */,
+				182908852D9A9043003E75A0 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		185FB1752D96A1DB0038890E = {
 			isa = PBXGroup;
 			children = (
@@ -94,9 +132,12 @@
 		185FB1802D96A1DB0038890E /* EcommerceApp */ = {
 			isa = PBXGroup;
 			children = (
-				185FB1812D96A1DB0038890E /* EcommerceAppApp.swift */,
-				185FB1832D96A1DB0038890E /* ContentView.swift */,
+				182908812D9A8930003E75A0 /* Model */,
+				182908802D9A892D003E75A0 /* ViewModel */,
+				1829087F2D9A8923003E75A0 /* VIew */,
+				182908842D9A9013003E75A0 /* App */,
 				185FB1852D96A1DF0038890E /* Assets.xcassets */,
+				182908872D9A92FE003E75A0 /* GoogleService-Info.plist */,
 				185FB1872D96A1DF0038890E /* Preview Content */,
 			);
 			path = EcommerceApp;
@@ -215,6 +256,8 @@
 				Base,
 			);
 			mainGroup = 185FB1752D96A1DB0038890E;
+			packageReferences = (
+			);
 			productRefGroup = 185FB17F2D96A1DB0038890E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +276,7 @@
 			files = (
 				185FB1892D96A1DF0038890E /* Preview Assets.xcassets in Resources */,
 				185FB1862D96A1DF0038890E /* Assets.xcassets in Resources */,
+				182908882D9A92FE003E75A0 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +301,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				185FB1842D96A1DB0038890E /* ContentView.swift in Sources */,
+				182908862D9A9043003E75A0 /* AppDelegate.swift in Sources */,
+				9C90BE4E2F3F8265007E7255 /* DashBoardView.swift in Sources */,
 				185FB1822D96A1DB0038890E /* EcommerceAppApp.swift in Sources */,
+				182908832D9A895A003E75A0 /* AuthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

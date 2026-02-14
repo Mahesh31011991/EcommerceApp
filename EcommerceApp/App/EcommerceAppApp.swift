@@ -9,9 +9,17 @@ import SwiftUI
 
 @main
 struct EcommerceAppApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                AuthView()
+            }
         }
+        
     }
+    
+        
+       
 }
